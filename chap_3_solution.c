@@ -267,27 +267,27 @@
 
 // QUESTION L
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
+// int main(){
 
-    int x, y;
-    scanf("%d %d", &x, &y);
-    if (x == 0 && y == 0){
-        printf("Point is On Origin\n");
-    }
-    else{
-        if (x == 0){
-            printf("Point is on X - axis\n");
-        }
-        else{
-            if(y == 0){
-                printf("Point is on Y- axis\n");
-            }
-            else{
-                printf("Point is Neither on X - Axis Nor Y- Axis");
-            }
-        }
-    }
-    return 0;
-}
+//     int x, y;
+//     scanf("%d %d", &x, &y);
+//     if (x == 0 && y == 0){
+//         printf("Point is On Origin\n");
+//     }
+//     else{
+//         if (x == 0){
+//             printf("Point is on X - axis\n");
+//         }
+//         else{
+//             if(y == 0){
+//                 printf("Point is on Y- axis\n");
+//             }
+//             else{
+//                 printf("Point is Neither on X - Axis Nor Y- Axis");
+//             }
+//         }
+//     }
+//     return 0;
+// }
