@@ -81,3 +81,95 @@
 // }
 
 
+
+// QUESTION D
+
+// #include<stdio.h>
+// #include<string.h>
+
+
+// void swap_char(char *a, char * b){
+//     char c;
+//     c = *a;
+//     *a = *b;
+//     *b = c;
+// }
+
+// void reverse(char arr[]){
+//     int length = strlen(arr);
+//     for (int i = 0, j = length-1; i <= j; i++, j--)
+//     {
+//         swap_char(&arr[i], &arr[j]);
+//     }
+    
+// }
+
+// int main(){
+
+//     char *str[] = {
+
+//         "Ramesh",
+//         "Abhishek",
+//         "Arun",
+//         "Zisan",
+//         "Suresh"
+//     };
+    
+
+//     for (int i = 0; i < 5; i++)
+//     {
+//         reverse(str[i]);
+//     }
+//     for (int i = 0; i < 5; i++)
+//     {
+//         printf("%s\n", str[i]);
+        
+//     }
+
+
+//     return 0;
+// }
+
+
+
+
+// QUESTION E
+
+// #include<stdio.h>
+
+// int isVowel(char c){
+//     if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || c == 'a' || c == 'e' ||  c == 'i' ||  c == 'o' ||  c == 'u'){
+//         return 1;
+//     }
+//     else{
+//         return 0;
+//     }
+// }
+
+// int main(){
+
+//     char str[80], str1[80];
+//     char *s, *p;
+
+//     s = str;
+//     p = str1;
+
+//     printf("Enter Sentence : \n");
+//     gets(str);
+
+//     while (*s){
+//         if (isVowel(*s)){
+//             s++;
+//         }
+//         else{
+//             *p++ = *s++;
+//         }
+//     }
+//     *p = '\0';
+//     printf("After Removing Vowels : \n");
+//     puts(str1);
+
+//     return 0;
+// }
+
+
